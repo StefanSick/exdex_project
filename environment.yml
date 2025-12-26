@@ -38,8 +38,13 @@ dependencies:
   - python-dateutil
   - pytz
 
+  # Excel support
+  - openpyxl
+  - xlrd
+
   # Math backend (portable on Apple Silicon)
   - openblas
 
   # Pip fallback
-  - pip
+  - pip:
+    - import-ipynb
