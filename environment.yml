@@ -37,6 +37,13 @@ dependencies:
   - six
   - python-dateutil
   - pytz
+  
+  # Widgets
+  - ipywidgets
+
+  # Statistics
+  - statsmodels
+  - scipy
 
   # Excel support
   - openpyxl
