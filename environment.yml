@@ -2,6 +2,7 @@ name: exdex_env
 channels:
   - conda-forge
 dependencies:
+  - pip
   # Python
   - python=3.10
 
