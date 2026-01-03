@@ -1,6 +1,39 @@
-# exdex_project
-## Data Sources
 
+# Evolution of political parties in European parliaments over time
+##  Group 20: Morawez, Tusha, Chmielowski, Sick 
+
+
+## 📂 Project Structure
+
+src/: Contains the main Jupyter notebook.
+
+data/: Contains the economic, social and manifesto datasets, as well as processed datasets which are used in later steps.
+
+environment.yml: Configuration file for the Python environment.
+
+
+
+## Setup and Installation
+
+To ensure reproducibility and correct dependency management, please use the provided `environment.yml` file to set up your local environment. This ensures all team members are using the same versions of Scikit-Learn, LightGBM, and other critical libraries.
+
+### 1. Create the Conda Environment
+Open your terminal or Anaconda Prompt in the project root directory and run:
+```bash
+conda env create -f environment.yml
+```
+### 2. Activate the Environment
+```bash
+conda activate exdex
+```
+### 3. Register the Kernel for Jupyter
+To ensure that Jupyter Notebook can "see" this specific environment, you must install it as a kernel:
+```bash
+python -m ipykernel install --user --name exdex --display-name "Python (exdex)"
+```
+
+
+## Data Sources
 | Indicator | Description | Source | Dataset |
 | :--- | :--- | :--- | :--- |
 | **HICP** | Consumer Prices (average index and rate of change) | Eurostat | [View Data](https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table?lang=en) | 
