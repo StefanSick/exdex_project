@@ -30,6 +30,7 @@ dependencies:
   - cycler
   - kiwisolver
   - pyparsing
+  - seaborn
 
   # Utilities
   - packaging
