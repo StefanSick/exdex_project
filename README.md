@@ -24,12 +24,12 @@ conda env create -f environment.yml
 ```
 ### 2. Activate the Environment
 ```bash
-conda activate exdex
+conda activate exdex_group20
 ```
 ### 3. Register the Kernel for Jupyter
 To ensure that Jupyter Notebook can "see" this specific environment, you must install it as a kernel:
 ```bash
-python -m ipykernel install --user --name exdex --display-name "Python (exdex)"
+python -m ipykernel install --user --name exdex_group20 --display-name "Python (exdex_group20)"
 ```
 
 

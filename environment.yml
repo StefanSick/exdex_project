@@ -1,4 +1,4 @@
-name: exdex_env
+name: exdex_group20
 channels:
   - conda-forge
 dependencies:
